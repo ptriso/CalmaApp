@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CalmaApp – Bienestar Mental</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #e6f2ff, #f9f9f9);
+      color: #333;
+    }
+    header {
+      background-color: #004c99;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      animation: fadeIn 1s ease-out;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      animation: fadeInUp 1s ease-out;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .feature {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .feature h3 {
+      margin-top: 0;
+      color: #004c99;
+    }
+    .cta {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .cta a {
+      background-color: #004c99;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background-color 0.3s;
+    }
+    .cta a:hover {
+      background-color: #0066cc;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header style="display: flex; justify-content: flex-end; align-items: center; padding: 2rem 1rem; background-color: #004c99; color: white;">
+    <div style="flex: 1; text-align: center;">
+      <h1>CalmaApp</h1>
+      <p>Tu compañero emocional diario con inteligencia artificial y rutinas personalizadas</p>
+    </div>
+    <img src="assets/images/logo calma App.png"alt="Logo CalmaApp" style="height: 110px; border-radius: 10px; margin-left: 25px;">
+  </header>
+
+  <section class="section">
+    <h2>¿Qué es CalmaApp?</h2>
+    <p>CalmaApp es una aplicación de bienestar mental diseñada para ofrecerte un acompañamiento diario, con rutinas personalizadas, seguimiento emocional y herramientas impulsadas por inteligencia artificial. Está pensada especialmente para jóvenes, estudiantes y trabajadores que buscan equilibrio emocional en su día a día.</p>
+  </section>
+
+  <section class="section features">
+    <div class="feature">
+      <h3>Personalización con IA</h3>
+      <p>Nuestra inteligencia artificial adapta las rutinas y consejos a tu estado emocional y nivel de estrés.</p>
+    </div>
+    <div class="feature">
+      <h3>Rutinas Diarias</h3>
+      <p>Organiza tu día con actividades guiadas de respiración, escritura terapéutica, retos mentales y más.</p>
+    </div>
+    <div class="feature">
+      <h3>Interacción Humana</h3>
+      <p>Conecta con profesionales o guías entrenados para acompañarte cuando lo necesites.</p>
+    </div>
+    <div class="feature">
+      <h3>Versión Gratuita Accesible</h3>
+      <p>Accede gratuitamente a muchas funciones, y mejora tu experiencia con planes económicos.</p>
+    </div>
+  </section>
+
+  <div class="cta">
+    <a href="#">Probar CalmaApp</a>
+  </div>
+
+  <footer>
+    © 2025 CalmaApp. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
